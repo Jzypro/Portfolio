@@ -597,7 +597,20 @@
             }
 
             .hero {
-                padding-top: 8rem;
+                padding-top: 10rem;
+            }
+
+            .logo span{
+                font-size: 15px;
+            }
+
+            .btn-outline{
+                padding: 10px;
+            }
+
+            .btn-primary{
+                padding: 10px;
+                text-align: center;
             }
 
             .about-grid,
