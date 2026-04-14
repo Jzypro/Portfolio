@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jzy Reyes</title>
+    
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="images/fav2.jpg" type="image/x-icon">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <nav>
+            <a href="#" class="logo">
+                <div class="logo-box">J</div>
+                <span>Jzy Reyes</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+<div style="display:flex; align-items:center; gap:1rem;">
+    <button class="btn btn-outline" onclick="toggleDarkMode()" id="darkModeBtn">
+        🌙 Dark Mode
+    </button>
+
+    <a href="#contact" class="btn btn-primary">Let's Talk</a>
+    <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+</div>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <span class="badge">Available for freelance & full-time roles</span>
+        <h1>Building digital <br><span>experiences</span> that matter.</h1>
+        <p>I am a Results-driven Junior Developer based in the Philippines, specializing in modern web technologies and enterprise automation to streamline business processes.</p>
+        <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="fade-in">
+                    <div class="section-header">
+                        <p class="section-subtitle">About Me</p>
+                        <h2 class="section-title">More than just code</h2>
+                        <div class="section-line"></div>
+                    </div>
+                    <p>I’m Jzy Reyes, a Junior Developer passionate about building clean, responsive, and user-friendly web applications. I work primarily with HTML, CSS, JavaScript, and modern frameworks to create functional and visually appealing interfaces.
+                    I recently graduated with a degree in Information Technology and I’m continuously improving my skills by building real-world projects and exploring new tools in modern web development.</p>
+                </div>
+<div class="skills-box fade-in">
+    <h3 style="font-family: Georgia, serif; margin-bottom: 1.5rem;">
+        Tech Stack
+    </h3>
+
+    <div class="skills-grid">
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+            <span>HTML</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+            <span>CSS</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+            <span>JavaScript</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg">
+            <span>React JS</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg">
+            <span>MySQL</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg">
+            <span>Git</span>
+        </div>
+
+        <div class="skill-card">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+            <span>PHP</span>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="experience" id="experience">
+        <div class="container">
+
+            <div class="section-header fade-in">
+                    <p class="section-subtitle">My Journey</p>
+                    <h2 class="section-title">Experience</h2>
+                    <div class="section-line"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-year">JAN 2025 - APRIL 2025</div>
+                    <div class="timeline-content">
+                        <h3>Automation Intern</h3>
+                        <p class="company">International Rice Research Institute (IRRI)</p>
+                        <ul style="color: var(--gray); margin-left: 1rem;">
+                            <li>Developed an automated payslip distribution system using Microsoft Power Automate, significantly reducing manual processing time.</li>
+                            <li>Executed a full-scale migration of internal web infrastructure from Google Sites to SharePoint, enhancing ecosystem integration and accessibility</li>
+                            <li>Collaborated with the IT team to implement enterprise-level automation solutions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-year">2021 - 2025</div>
+                        <div class="timeline-content">
+                            <h3>Bachelor Of Science In Information Technology</h3>
+                            <p class="company">Trace College</p>
+                            <p>Focused on Full-Stack Development, Database Optimization (MySQL), and Software Engineering principles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <!-- <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header fade-in">
+                <p class="section-subtitle">Selected Work</p>
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span>SaaS Dashboard</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>FinDash Analytics</h3>
+                        <p>A comprehensive financial analytics dashboard featuring real-time data visualization.</p>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">D3.js</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span>E-Commerce</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Lumina Gallery</h3>
+                        <p>An immersive online art gallery with WebGL transitions and virtual exhibitions.</p>
+                        <div class="tags">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">Three.js</span>
+                            <span class="tag">Stripe</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card fade-in">
+                    <div class="project-image">
+                        <span>Mobile App</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>HealthTrack Pro</h3>
+                        <p>A cross-platform mobile application for tracking fitness goals and nutrition.</p>
+                        <div class="tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact -->
+    <!-- Contact -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-grid">
+
+            <!-- LEFT SIDE -->
+            <div class="fade-in">
+                <h2>Let's work together</h2>
+                <p>Have a project in mind? I'm always open to discussing new opportunities and creative ideas.</p>
+
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">✉</div>
+                        <div>
+                            <p>Email me at</p>
+                            <a href="mailto:jzyreyes2001@gmail.com">jzyreyes2001@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.instagram.com/franchwaaa/" class="social">
+                        <img src="images/IG-LOGO.png" width="40px">
+                    </a>
+                    <a href="https://www.facebook.com/Franchwaaa/" class="social">
+                        <img src="images/FB.png" width="47px">
+                    </a>
+                    <a href="https://github.com/Jzypro" class="social">
+                        <img src="images/github.png" width="35px">
+                    </a>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="why-hire fade-in">
+                <h3>Why hire me?</h3>
+
+                <div class="why-item">
+                    <h4>⚡ Fast Learner</h4>
+                    <p>I quickly adapt to new tools and technologies without needing long onboarding.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>🧼 Clean Code</h4>
+                    <p>I write structured, readable, and maintainable code that is easy to scale.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>📱 Responsive Design</h4>
+                    <p>I build websites that work smoothly across all devices and screen sizes.</p>
+                </div>
+
+                <div class="why-item">
+                    <h4>🧠 Problem Solver</h4>
+                    <p>I focus on understanding problems first before jumping into solutions.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div style="width: 24px; height: 24px; background: #1e293b; border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 12px;">J</div>
+                <span>Jzy Francois Reyes</span>
+            </div>
+            <p>&copy; 2026 Jzy Reyes. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+        </div>
+    </footer>
+
+ <script src="scripts/script.js"></script>
+</body>
+</html>
